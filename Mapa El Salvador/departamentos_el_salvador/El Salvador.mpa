@@ -1,0 +1,23 @@
+[BaseMap]
+AttributeTable='El Salvador'.tbt
+CoordSystem=unknown.csy
+CoordBounds=-90.13200194311 13.155405349659 -87.68407007001 14.450932669839
+Domain='El Salvador'.dom
+DomainInfo=El Salvador.dom;Byte;id;15;;
+HistogramSize=0
+Proximity=0.006478
+Type=PolygonMap
+[Ilwis]
+Description=
+Time=1650914360
+Version=3.7
+Class=ILWIS::Polygon Map
+Type=BaseMap
+[PolygonMapStore]
+Format=5
+DataPol='El Salvador'.mpz#
+Polygons=32
+DeletedPolygons=0
+[PolygonMap]
+Type=PolygonMapStore
+Topological=No
