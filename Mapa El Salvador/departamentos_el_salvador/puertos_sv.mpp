@@ -8,7 +8,7 @@ Type=DomainUniqueID
 [Ilwis]
 ContainsDom=True
 Description=Almacena los puntos de los puertos de El Salvador
-Time=1651945508
+Time=1651968094
 Version=3.1
 Class=Point Map
 Type=BaseMap
@@ -19,7 +19,7 @@ Prefix=pnt
 Nr=5
 [BaseMap]
 AttributeTable=puertos_sv.tbt
-CoordSystem=utm.csy
+CoordSystem=unknown.csy
 CoordBounds=-90.132 13.155 -87.684 14.451
 Domain=puertos_sv.mpp
 DomainInfo=puertos_sv.mpp;Long;UniqueID;0;;
@@ -27,17 +27,17 @@ HistogramSize=0
 Proximity=0.006480
 Type=PointMap
 [PointMap]
-Points=8
+Points=9
 Type=PointMapStore
 [Table]
 Description=
-Time=1651945508
+Time=1651968094
 Version=3.1
 Class=Table
 Domain=None.dom
 DomainInfo=none.dom;Byte;none;0;;
 Columns=2
-Records=9
+Records=10
 Type=TableStore
 [TableStore]
 Data=puertos_sv.pt#
@@ -47,11 +47,11 @@ Col1=Name
 Type=TableBinary
 [Col:Coordinate]
 Description=
-Time=1651945508
+Time=1651968094
 Version=3.1
 Class=Column
-Domain=utm.csy
-DomainInfo=utm.csy;Coord;coord;0;;
+Domain=unknown.csy
+DomainInfo=unknown.csy;Coord;coord;0;;
 ReadOnly=No
 OwnedByTable=No
 StoreType=Coord
@@ -59,7 +59,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:Name]
 Description=Point name/value
-Time=1651945508
+Time=1651968094
 Version=3.1
 Class=Column
 Domain=puertos_sv.mpp
@@ -74,7 +74,7 @@ StoreTime=0
 Format=2
 [dom:Table]
 Description=Almacena los puntos de los puertos de El Salvador
-Time=1651943714
+Time=1651945508
 Version=3.1
 Class=Table
 Domain=String.dom

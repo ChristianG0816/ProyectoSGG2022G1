@@ -1,0 +1,23 @@
+[BaseMap]
+AttributeTable=lim_municipal.tbt
+CoordSystem=unknown.csy
+CoordBounds=-90.1320019431 13.155405346399 -87.68407007016 14.450932664479
+Domain=lim_municipal.dom
+DomainInfo=lim_municipal.dom;Int;id;263;;
+HistogramSize=0
+Proximity=0.006478
+Type=PolygonMap
+[Ilwis]
+Description=
+Time=1651960256
+Version=3.7
+Class=ILWIS::Polygon Map
+Type=BaseMap
+[PolygonMapStore]
+Format=5
+DataPol=lim_municipal.mpz#
+Polygons=287
+DeletedPolygons=0
+[PolygonMap]
+Type=PolygonMapStore
+Topological=No
