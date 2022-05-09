@@ -1,0 +1,23 @@
+[BaseMap]
+AttributeTable=LIM_DEPARTAMENTAL.tbt
+CoordSystem=unknown.csy
+CoordBounds=-90.13200194311 13.155405349659 -87.68407007001 14.450932669839
+Domain=LIM_DEPARTAMENTAL.dom
+DomainInfo=LIM_DEPARTAMENTAL.dom;Byte;id;15;;
+HistogramSize=0
+Proximity=0.006478
+Type=PolygonMap
+[Ilwis]
+Description=
+Time=1652055558
+Version=3.7
+Class=ILWIS::Polygon Map
+Type=BaseMap
+[PolygonMapStore]
+Format=5
+DataPol=LIM_DEPARTAMENTAL.mpz#
+Polygons=32
+DeletedPolygons=0
+[PolygonMap]
+Type=PolygonMapStore
+Topological=No
