@@ -79,4 +79,4 @@ OwnedByTable=No
 StoreType=String
 Stored=Yes
 Type=ColumnStore
-Width=20
+Width=26

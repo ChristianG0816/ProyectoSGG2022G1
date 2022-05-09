@@ -1,6 +1,6 @@
 [Domain]
 Description=Domain UniqueID "hoteles_costas.mpp"
-Time=1652050904
+Time=1652056730
 Version=3.1
 Class=Domain UniqueID
 Width=8
@@ -8,15 +8,16 @@ Type=DomainUniqueID
 [Ilwis]
 ContainsDom=True
 Description=Contiene Hoteles cercanos a las costas de Acajutla, La Libertad, La Union y La Paz
-Time=1652050906
+Time=1652056730
 Version=3.1
 Class=Point Map
 Type=BaseMap
+
 [DomainSort]
 Sorting=AlphaNumeric
 Prefix=pnt
 [DomainIdentifier]
-Nr=30
+Nr=28
 [BaseMap]
 AttributeTable=hoteles_costas.tbt
 CoordSystem=unknown.csy
@@ -27,17 +28,17 @@ HistogramSize=0
 Proximity=0.006480
 Type=PointMap
 [PointMap]
-Points=31
+Points=29
 Type=PointMapStore
 [Table]
 Description=
-Time=1652050908
+Time=1652056816
 Version=3.1
 Class=Table
 Domain=None.dom
 DomainInfo=none.dom;Byte;none;0;;
 Columns=2
-Records=32
+Records=30
 Type=TableStore
 [TableStore]
 Data=hoteles_costas.pt#
@@ -47,7 +48,7 @@ Col1=Name
 Type=TableBinary
 [Col:Coordinate]
 Description=
-Time=1652050908
+Time=1652056816
 Version=3.1
 Class=Column
 Domain=unknown.csy
@@ -59,7 +60,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:Name]
 Description=Point name/value
-Time=1652050908
+Time=1652056816
 Version=3.1
 Class=Column
 Domain=hoteles_costas.mpp
@@ -70,17 +71,17 @@ StoreType=Long
 Stored=Yes
 Type=ColumnStore
 [PointMapStore]
-StoreTime=1652050904
+StoreTime=1652056730
 Format=2
 [dom:Table]
 Description=
-Time=1652050904
+Time=1652056730
 Version=3.1
 Class=Table
 Domain=String.dom
 DomainInfo=String.dom;String;string;0;;
 Columns=3
-Records=30
+Records=28
 Type=TableStore
 [dom:TableStore]
 Data=hoteles_costas.dm!
@@ -91,7 +92,7 @@ Col2=Ind
 Type=TableBinary
 [dom:Col:Name]
 Description=ID Name
-Time=1652047874
+Time=1652056014
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -103,7 +104,7 @@ Stored=Yes
 Type=ColumnStore
 [dom:Col:Ord]
 Description=Order
-Time=1652047874
+Time=1652056014
 Version=3.1
 Class=Column
 Domain=value.dom
@@ -119,7 +120,7 @@ Stored=Yes
 Type=ColumnStore
 [dom:Col:Ind]
 Description=Inverse Order
-Time=1652047874
+Time=1652056014
 Version=3.1
 Class=Column
 Domain=value.dom

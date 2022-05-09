@@ -1,0 +1,14 @@
+[Ilwis]
+Description=Domain Identifier "LIM_DEPARTAMENTAL"
+Time=1652055534
+Version=3.1
+Class=Domain Identifier
+Type=Domain
+[Domain]
+Width=6
+Type=DomainIdentifier
+[DomainSort]
+Sorting=AlphaNumeric
+Prefix=
+[DomainIdentifier]
+Nr=15
