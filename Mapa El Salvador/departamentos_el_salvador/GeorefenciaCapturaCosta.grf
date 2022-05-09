@@ -1,0 +1,187 @@
+[Table]
+Description=
+Time=1652057320
+Version=3.1
+Class=Table
+Domain=None.dom
+DomainInfo=none.dom;Byte;none;0;;
+Columns=7
+Records=4
+Type=TableStore
+[TableStore]
+Data=GeorefenciaCapturaCosta.gr#
+UseAs=No
+Col0=X
+Col1=Y
+Col2=Row
+Col3=Col
+Col4=Active
+Type=TableBinary
+Col5=DRow
+Col6=DCol
+[Col:X]
+Description=X-coord
+Time=1652057126
+Version=3.1
+Class=Column
+Domain=value.dom
+DomainInfo=value.dom;Long;value;0;-9999999.9:9999999.9:0.1:offset=0;
+Range=-1000000000.000:1000000000.000:0.001:offset=0
+ReadOnly=No
+OwnedByTable=Yes
+Sum=?
+Mean=?
+StdDev=?
+StoreType=Real
+Stored=Yes
+Type=ColumnStore
+[Col:Y]
+Description=Y-coord
+Time=1652057126
+Version=3.1
+Class=Column
+Domain=value.dom
+DomainInfo=value.dom;Long;value;0;-9999999.9:9999999.9:0.1:offset=0;
+Range=-1000000000.000:1000000000.000:0.001:offset=0
+ReadOnly=No
+OwnedByTable=Yes
+Sum=?
+Mean=?
+StdDev=?
+StoreType=Real
+Stored=Yes
+Type=ColumnStore
+[Col:Row]
+Description=Pixel row
+Time=1652057126
+Version=3.1
+Class=Column
+Domain=value.dom
+DomainInfo=value.dom;Long;value;0;-9999999.9:9999999.9:0.1:offset=0;
+Range=-579:1158:offset=0
+ReadOnly=No
+OwnedByTable=Yes
+Sum=?
+Mean=?
+StdDev=?
+StoreType=Long
+Stored=Yes
+Type=ColumnStore
+[Col:Col]
+Description=Pixel column
+Time=1652057126
+Version=3.1
+Class=Column
+Domain=value.dom
+DomainInfo=value.dom;Long;value;0;-9999999.9:9999999.9:0.1:offset=0;
+Range=-936:1872:offset=0
+ReadOnly=No
+OwnedByTable=Yes
+Sum=?
+Mean=?
+StdDev=?
+StoreType=Long
+Stored=Yes
+Type=ColumnStore
+[Col:Active]
+Description=Active point
+Time=1652057126
+Version=3.1
+Class=Column
+Domain=bool.dom
+DomainInfo=bool.dom;Byte;bool;0;;
+Range=0:1:offset=-1
+ReadOnly=No
+OwnedByTable=Yes
+Sum=?
+Mean=?
+StdDev=?
+StoreType=Long
+Stored=Yes
+Type=ColumnStore
+[Ilwis]
+Description=
+Time=1652057320
+Version=3.1
+Class=GeoReference TiePoints
+Type=GeoRef
+[GeoRef]
+CoordSystem=utm.csy
+Lines=579
+Columns=936
+Type=GeoRefCTP
+[GeoRefCTP]
+Background Map=capturacosta__1.mpr
+SubPixelPrecision=No
+Transformation=Affine
+[Col:DRow]
+Description=
+Time=1652057126
+Version=3.1
+Class=Column
+Domain=value.dom
+DomainInfo=value.dom;Long;value;0;-9999999.9:9999999.9:0.1:offset=0;
+Range=-9999.00:9999.00:0.01:offset=0
+ReadOnly=Yes
+OwnedByTable=Yes
+Sum=?
+Mean=?
+StdDev=?
+StoreType=Long
+Stored=Yes
+Type=ColumnStore
+[Col:DCol]
+Description=
+Time=1652057128
+Version=3.1
+Class=Column
+Domain=value.dom
+DomainInfo=value.dom;Long;value;0;-9999999.9:9999999.9:0.1:offset=0;
+Range=-9999.00:9999.00:0.01:offset=0
+ReadOnly=Yes
+OwnedByTable=Yes
+Sum=?
+Mean=?
+StdDev=?
+StoreType=Long
+Stored=Yes
+Type=ColumnStore
+[AdditionalInfo]
+Line0=Transformation: Affine
+Line1=Nr of Ground Control Points: 4
+Line2=Nr of Active Ground Control Points: 4
+Line3=Shift of Ground-Coords grdX,grdY to Centroid:
+Line4=X = grdX - -88.805 m
+Line5=Y = grdY - 13.786 m
+Line6=Equations (from Ground to Picture):
+Line7=pRow = 294.000 + -7.989502 * X + -426.505309 * Y
+Line8=pCol = 470.000 + 397.348501 * X + 88.22955 * Y
+Line9=Azimuth of colums in rastermap:
+Line10= -12.51917 degrees
+Line11=Grid intersection angle is
+Line12=(computed at point (-88.80514, 13.78647):
+Line13= 77.1604 degrees
+Line14=Pixel size:
+Line15= 0.00243 meter (or degrees) per pixel
+Line16=
+Line17= Inverse Transformation:
+Line18=Shift of Picture pRow,pCol to Centroid:
+Line19=Row = pRow - 294.000  
+Line20=Col = pCol - 470.000  
+Line21=grdX = -88.80514 + 0.00052 * Row + 0.00253 * Col
+Line22=grdY = 13.78647 + -0.00235 * Row + -0.00005 * Col
+Line23=Scale in X direction : 0.00258 meter (or degrees) per pixel
+Line24=Scale in Y direction : 0.00235 meter (or degrees) per pixel
+Line25=
+Line26= Simplified Coord to RowCol equations: ('GeoRefSimple')
+Line27=Row = 5464.494 + -7.989502 * X + -426.505309 * Y
+Line28=Col = 34540.217 + 397.348501 * X + 88.22955 * Y
+Line29=Sigma = ~0.07 pixels
+Line30=Row = 5464.494 + -7.989502 * X + -426.505309 * Y
+Line31=Col = 34540.217 + 397.348501 * X + 88.22955 * Y
+Line32=Pixel size (GrSmpl):
+Line33= 0.00243 meter (or degrees) per pixel
+Line34=RC * XY matrix = ~
+Line35=[1   -1.059351e-008]
+Line36=[-3.20211e-008   1]
+Lines=37

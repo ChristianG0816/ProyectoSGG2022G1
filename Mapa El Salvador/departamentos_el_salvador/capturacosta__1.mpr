@@ -1,0 +1,42 @@
+[Ilwis]
+Description=Raster Map from capturacosta.jpg, using GDAL, method : use as
+Time=1652057126
+Version=3.1
+Class=Raster Map
+UseAs=Yes
+Type=BaseMap
+[BaseMap]
+CoordSystem=utm.csy
+CoordBounds=-90.146626644607 13.093397507721 -87.478476752878 14.500923223631
+Domain=Image.dom
+DomainInfo=Image.dom;Byte;image;0;;
+Range=0:255:offset=0
+HistogramSize=0
+Proximity=2.895000
+Type=Map
+MinMax=0:255
+[Map]
+GeoRef=GeorefenciaCapturaCosta.grf
+Size=579 936
+Type=MapStore
+[MapStore]
+StoreTime=0
+Structure=Line
+StartOffset=0
+RowLength=936
+PixelInterLeaved=Yes
+SwapBytes=Yes
+Type=ForeignFormat
+UseAs=Yes
+Format=3
+[ForeignFormat]
+LastStoreTime=-1800589944,30958210
+Input=capturacosta.jpg
+AssociatedType=6
+UseAs=Yes
+Method=GDAL
+Layer=1
+[Collection]
+NrOfItems=2
+Item0=capturacosta.ioc
+Item1=capturacosta.mpl

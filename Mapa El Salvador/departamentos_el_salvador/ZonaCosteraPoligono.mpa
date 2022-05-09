@@ -1,0 +1,49 @@
+[Domain]
+Description=Domain UniqueID "ZonaCosteraPoligono.mpa"
+Time=1652124032
+Version=3.1
+Class=Domain UniqueID
+Width=8
+Type=DomainUniqueID
+[Ilwis]
+ContainsDom=True
+Description=Contiene las costas salvadoreñas
+Time=1652124032
+Version=3.1
+Class=Dependent Polygon Map
+DomainChangeable=Yes
+Type=BaseMap
+[DomainSort]
+Sorting=AlphaNumeric
+Prefix=Pol
+[DomainIdentifier]
+Nr=242
+[IlwisObjectVirtual]
+Expression=PolygonMapFromSegment(ZonaCostera,"")
+DefOnlyPossible=No
+[ObjectDependency]
+NrDepObjects=1
+Object0=ZonaCostera.mps
+[PolygonMap]
+Type=PolygonMapVirtual
+Topological=Yes
+[PolygonMapVirtual]
+Expression=PolygonMapFromSegment(ZonaCostera,"")
+Type=PolygonMapFromSegment
+[PolygonMapFromSegment]
+SegmentMap=ZonaCostera.mps
+Mask=
+AutoCorrect=No
+[BaseMap]
+CoordSystem=unknown.csy
+CoordBounds=-90.132 13.155 -87.684 14.451
+Domain=ZonaCosteraPoligono.mpa
+DomainInfo=ZonaCosteraPoligono.mpa;Long;UniqueID;0;;
+HistogramSize=0
+Type=PolygonMap
+Proximity=0.006480
+[PolygonMapStore]
+Format=5
+DataPol=ZonaCosteraPoligono.mpz#
+Polygons=51
+DeletedPolygons=0

@@ -1,6 +1,6 @@
 [Col:ASD]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=value.dom
@@ -16,7 +16,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:COD]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=value.dom
@@ -32,7 +32,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:PPL]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=value.dom
@@ -48,7 +48,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:ACC]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=value.dom
@@ -64,7 +64,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:SRT]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=value.dom
@@ -80,7 +80,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:AREA_KM]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=value.dom
@@ -96,7 +96,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:PERIMETRO]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=value.dom
@@ -112,7 +112,7 @@ Stored=Yes
 Type=ColumnStore
 [Ilwis]
 Description=Table lim_municipal.tbt
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Table
 Type=Table
@@ -144,7 +144,7 @@ Col15=PERIMETRO
 Type=TableBinary
 [Col:FCODE]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -156,7 +156,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:UID]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -168,7 +168,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:NA2]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -180,7 +180,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:NA3]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -192,7 +192,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:NAM]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -204,7 +204,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:CCN]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -216,7 +216,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:SDV]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -228,7 +228,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:SDP]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -240,7 +240,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:TXT]
 Description=
-Time=1651960252
+Time=1652065444
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -250,3 +250,7 @@ OwnedByTable=No
 StoreType=String
 Stored=Yes
 Type=ColumnStore
+[TableView]
+StatPaneVisible=Yes
+RecordView=No
+ButtonWidth=6

@@ -1,0 +1,17 @@
+[Ilwis]
+Description=
+Time=1652057088
+Version=3.1
+Class=Foreign Collection
+Type=ObjectCollection
+[ForeignFormat]
+LastStoreTime=0
+[ObjectCollection]
+Type=Foreign Collection
+NrObjects=5
+Object0=capturacosta__1.mpr
+Object1=
+Object2=capturacosta__2.mpr
+Object3=capturacosta__3.mpr
+Object4=capturacosta.mpl
+Method=gdal
