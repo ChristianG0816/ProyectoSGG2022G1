@@ -1,0 +1,27 @@
+[GeoRef]
+CoordSystem=utm.csy
+Type=GeoRefCorners
+columns=1633
+lines=865
+
+[GeoRefCorners]
+CornersOfCorners=Yes
+MaxX=-87.684000
+MaxY=14.451000
+MinX=-90.132000
+MinY=13.155000
+
+[Ilwis]
+Type=GeoRef
+
+Description=GeoReference Corners "nm_pleamar_v2_cut"
+Time=1652193298
+Version=3.1
+Class=GeoReference Corners
+[GeoRefSmpl]
+a11=667.075163398691
+a12=0.000000000000
+a21=0.000000000000
+a22=-667.438271604938
+b1=60124.818627450797
+b2=9645.150462962956

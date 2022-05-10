@@ -1,0 +1,36 @@
+[BaseMap]
+Domain=value.dom
+Range=-9999999.900:9999999.900:0.000:offset=0
+Type=Map
+CoordSystem=utm.csy
+CoordBounds=-90.132 13.1554 -87.6841 14.4509
+DomainInfo=value.dom;Long;value;0;-9999999.9:9999999.9:0.1:offset=0;
+HistogramSize=21
+MinMax=0.10000000149:0.300000011921
+Proximity=-50000000000000001000000000000.
+Perc1=0.10000000149:0.300000011921
+
+[Ilwis]
+Type=BaseMap
+Description=
+Time=1652191786
+Version=3.1
+Class=Raster Map
+
+[Map]
+GeoRef=nm_pleamar_v2_cut.grf
+Size=865 1633
+Type=MapStore
+
+[MapStore]
+Data=nm_pleamar_v2_cut.mp#
+Structure=Line
+Type=Float
+
+StoreTime=1652191765
+StartOffset=0
+RowLength=1633
+PixelInterLeaved=No
+SwapBytes=No
+UseAs=No
+Format=2

@@ -1,6 +1,6 @@
 [BaseMap]
 AttributeTable='El Salvador'.tbt
-CoordSystem=unknown.csy
+CoordSystem=utm.csy
 CoordBounds=-90.13200194311 13.155405349659 -87.68407007001 14.450932669839
 Domain='El Salvador'.dom
 DomainInfo=El Salvador.dom;Byte;id;15;;
@@ -9,7 +9,7 @@ Proximity=0.006478
 Type=PolygonMap
 [Ilwis]
 Description=
-Time=1650914360
+Time=1652192680
 Version=3.7
 Class=ILWIS::Polygon Map
 Type=BaseMap

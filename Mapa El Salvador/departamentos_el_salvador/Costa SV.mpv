@@ -1,0 +1,81 @@
+[Ilwis]
+Class=Map View
+Description=Costa SV
+Time=1652192894
+Type=MapView
+Version=3.1
+
+[Layer1]
+Coloring=Normal
+Info=Yes
+Map='C:\Users\Luifran\Documents\GitHub\ProyectoSGG2022G1\Mapa El Salvador\departamentos_el_salvador\nm_pleamar_v2_cut'.mpr
+Method=Representation
+Range=0.1:0.3
+Representation=PSEUDO
+Scale Limits=100:1000000
+Show=Yes
+Stretch=Yes
+Stretch Method=Linear
+Text=No
+Type=MapDrawer
+Use Scale Limits=No
+UseCustomLegendRange=No
+
+[Layer2]
+Boundaries=Yes
+BoundariesOnly=No
+BoundaryColor=0
+BoundaryWidth=3
+Color=a8a8a8
+Coloring=Normal
+HideSuperfluousBoundaries=No
+Info=Yes
+Method=SingleColor
+PolygonMap='El Salvador'.mpa
+Scale Limits=100:1000000
+Show=Yes
+Type=PolygonMapDrawer
+Use Scale Limits=No
+UseCustomLegendRange=No
+
+[Layer3]
+Color=0
+Coloring=Normal
+FillColor=ff0000
+Info=Yes
+Method=SingleColor
+PointMap='C:\Users\Luifran\Documents\GitHub\ProyectoSGG2022G1\Mapa El Salvador\departamentos_el_salvador\puertos_sv'.mpp
+Rotation=0.000000
+Scale Limits=100:1000000
+Show=Yes
+ShowSymbol=Yes
+Size=30
+Stretch=No
+Symbol=0
+SymbolType=Simple
+Text=No
+Type=PointMapDrawer
+Use Scale Limits=No
+UseCustomLegendRange=No
+Width=3
+
+[MapView]
+Background=ffffff
+CoordSystem='C:\Users\Luifran\Documents\GitHub\ProyectoSGG2022G1\Mapa El Salvador\departamentos_el_salvador\utm'.csy
+GeoRef='C:\Users\Luifran\Documents\GitHub\ProyectoSGG2022G1\Mapa El Salvador\departamentos_el_salvador\nm_pleamar_v2_cut'.grf
+Height=493
+Layers=3
+MapBounds=0 0 865 1633
+MinMax=0 0 865 1633
+Offset=0 0
+Scale=9.633118
+Width=1017
+
+[ObjectDependency]
+NrDepObjects=5
+Object0=nm_pleamar_v2_cut.grf
+Object1=utm.csy
+Object2=nm_pleamar_v2_cut.mpr
+Object3='El Salvador'.mpa
+Object4=puertos_sv.mpp
+
