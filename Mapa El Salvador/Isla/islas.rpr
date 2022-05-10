@@ -1,0 +1,40 @@
+[Table]
+Description=Representation Class "islas"
+Time=1652203194
+Version=3.1
+Class=Table
+Domain=islas.dom
+DomainInfo=islas.dom;Byte;class;1;;
+Columns=1
+Records=1
+Type=TableStore
+[TableStore]
+Data=islas.rp#
+UseAs=No
+Col0=Color
+Type=TableBinary
+StoreTime=1652203194
+[Col:Color]
+Description=Color
+Time=1652203194
+Version=3.1
+Class=Column
+Domain=Color.dom
+DomainInfo=Color.dom;Long;color;0;;
+ReadOnly=No
+OwnedByTable=Yes
+StoreType=Long
+Stored=Yes
+Type=ColumnStore
+[Ilwis]
+Description=Representation Class "islas"
+Time=1652203194
+Version=3.1
+Class=Representation Class
+Type=Representation
+[Representation]
+Domain=islas.dom
+DomainInfo=islas.dom;Byte;class;1;;
+BoundaryColor=0
+BoundaryWidth=1
+Type=RepresentationClass

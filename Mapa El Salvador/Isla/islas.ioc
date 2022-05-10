@@ -1,0 +1,10 @@
+[Ilwis]
+Description=
+Time=1652203194
+Version=3.1
+Class=ObjectCollection
+Type=ObjectCollection
+[ObjectCollection]
+NrObjects=2
+Object0=islas.mpa
+Object1=islas.dom

@@ -1,0 +1,23 @@
+[BaseMap]
+AttributeTable=departamentos.tbt
+CoordSystem=unknown.csy
+CoordBounds=-90.13200194311 13.155405349659 -87.68407007001 14.450932669839
+Domain=departamentos.dom
+DomainInfo=departamentos.dom;Byte;id;15;;
+HistogramSize=0
+Proximity=0.006478
+Type=PolygonMap
+[Ilwis]
+Description=
+Time=1652202714
+Version=3.7
+Class=ILWIS::Polygon Map
+Type=BaseMap
+[PolygonMapStore]
+Format=5
+DataPol=departamentos.mpz#
+Polygons=32
+DeletedPolygons=0
+[PolygonMap]
+Type=PolygonMapStore
+Topological=No

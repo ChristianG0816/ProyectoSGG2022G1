@@ -1,0 +1,25 @@
+[Ilwis]
+Description=Polygon Map imported from islas.shp
+Time=1652203238
+Version=3.7
+Class=ILWIS::Polygon Map
+Type=BaseMap
+[BaseMap]
+CoordSystem=unknown.csy
+CoordBounds=-87.871239081429 13.161742881172 -87.684066255024 13.390851206342
+Domain=islas.dom
+DomainInfo=islas.dom;Byte;class;1;;
+HistogramSize=0
+Proximity=0.000936
+Type=PolygonMap
+[PolygonMapStore]
+Format=5
+DataPol=islas.mpz#
+Polygons=9
+DeletedPolygons=0
+[PolygonMap]
+Type=PolygonMapStore
+Topological=No
+[Collection]
+NrOfItems=1
+Item0=islas.ioc
