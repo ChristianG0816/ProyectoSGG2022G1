@@ -115,3 +115,7 @@ StdDev=1.146505
 StoreType=Real
 Stored=Yes
 Type=ColumnStore
+[TableView]
+StatPaneVisible=No
+RecordView=No
+ButtonWidth=4

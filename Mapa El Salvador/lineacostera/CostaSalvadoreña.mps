@@ -1,14 +1,14 @@
 [Domain]
-Description=Domain UniqueID "ZonaCostera.mps"
-Time=1652123904
+Description=Domain UniqueID "CostaSalvadoreña.mps"
+Time=1652223224
 Version=3.1
 Class=Domain UniqueID
 Width=8
 Type=DomainUniqueID
 [Ilwis]
 ContainsDom=True
-Description=
-Time=1652123904
+Description=Contiene la Linea Costera de El Salvador
+Time=1652223224
 Version=3.1
 Class=ILWIS::Segment Map
 Type=BaseMap
@@ -16,13 +16,13 @@ Type=BaseMap
 Sorting=AlphaNumeric
 Prefix=seg
 [DomainIdentifier]
-Nr=216
+Nr=1
 [BaseMap]
-AttributeTable=ZonaCostera.tbt
+AttributeTable=CostaSalvadoreña.tbt
 CoordSystem=unknown.csy
 CoordBounds=-90.132 13.155 -87.684 14.451
-Domain=ZonaCostera.mps
-DomainInfo=ZonaCostera.mps;Long;UniqueID;0;;
+Domain=CostaSalvadoreña.mps
+DomainInfo=CostaSalvadoreña.mps;Long;UniqueID;0;;
 HistogramSize=0
 Proximity=0.006480
 Type=SegmentMap
@@ -33,21 +33,21 @@ Type=SegmentMapStore
 [SegmentMapStore]
 Status=-32767
 Format=2
-Segments=242
+Segments=1
 DeletedSegments=0
 Coordinates=0
 [Table]
 Description=
-Time=1652123908
+Time=1652223234
 Version=3.1
 Class=Table
 Domain=None.dom
 DomainInfo=none.dom;Byte;none;0;;
 Columns=5
-Records=241
+Records=1
 Type=TableStore
 [TableStore]
-Data=zonacostera.mps#
+Data=CostaSalvadoreña.mps#
 UseAs=No
 Col0=MinCoords
 Col1=MaxCoords
@@ -57,7 +57,7 @@ Col4=SegmentValue
 Type=TableBinary
 [Col:MinCoords]
 Description=
-Time=1652123908
+Time=1652223234
 Version=3.1
 Class=Column
 Domain=unknown.csy
@@ -69,7 +69,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:MaxCoords]
 Description=
-Time=1652123908
+Time=1652223234
 Version=3.1
 Class=Column
 Domain=unknown.csy
@@ -81,7 +81,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:Coords]
 Description=
-Time=1652123908
+Time=1652223234
 Version=3.1
 Class=Column
 Domain=CoordBuf.dom
@@ -93,7 +93,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:Deleted]
 Description=
-Time=1652123908
+Time=1652223234
 Version=3.1
 Class=Column
 Domain=bool.dom
@@ -109,11 +109,11 @@ Stored=Yes
 Type=ColumnStore
 [Col:SegmentValue]
 Description=
-Time=1652123908
+Time=1652223234
 Version=3.1
 Class=Column
-Domain=ZonaCostera.mps
-DomainInfo=ZonaCostera.mps;Long;UniqueID;0;;
+Domain=CostaSalvadoreña.mps
+DomainInfo=CostaSalvadoreña.mps;Long;UniqueID;0;;
 ReadOnly=No
 OwnedByTable=No
 StoreType=Long

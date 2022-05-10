@@ -28,3 +28,7 @@ OwnedByTable=No
 StoreType=String
 Stored=Yes
 Type=ColumnStore
+[TableView]
+StatPaneVisible=No
+RecordView=No
+ButtonWidth=8
