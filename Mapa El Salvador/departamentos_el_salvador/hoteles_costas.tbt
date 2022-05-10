@@ -1,6 +1,6 @@
 [Ilwis]
 Description=
-Time=1652063862
+Time=1652203092
 Version=3.1
 Class=Table
 Type=Table
@@ -32,7 +32,7 @@ OwnedByTable=No
 StoreType=String
 Stored=Yes
 Type=ColumnStore
-Width=30
+Width=18
 [TableView]
 StatPaneVisible=No
 RecordView=No
@@ -55,7 +55,7 @@ OwnedByTable=No
 StoreType=String
 Stored=Yes
 Type=ColumnStore
-Width=20
+Width=11
 [Col:departamento]
 Description=
 Time=1652060142
@@ -68,10 +68,10 @@ OwnedByTable=No
 StoreType=String
 Stored=Yes
 Type=ColumnStore
-Width=20
+Width=13
 [Col:direccion]
 Description=
-Time=1652063862
+Time=1652203092
 Version=3.1
 Class=Column
 Domain=String.dom
