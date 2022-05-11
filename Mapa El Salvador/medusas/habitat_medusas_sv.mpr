@@ -1,0 +1,36 @@
+[BaseMap]
+Domain=value.dom
+Range=-9999999.900:9999999.900:0.000:offset=0
+Type=Map
+CoordSystem=habitat_medusas_sv.csy
+CoordBounds=-90.132 13.1554 -87.6841 14.4509
+DomainInfo=value.dom;Long;value;0;-9999999.9:9999999.9:0.1:offset=0;
+HistogramSize=11
+MinMax=0:1
+Proximity=-50000000000000001000000000000.
+Perc1=0:0.40000000596
+
+[Ilwis]
+Type=BaseMap
+Description=
+Time=1652240444
+Version=3.1
+Class=Raster Map
+
+[Map]
+GeoRef=habitat_medusas_sv.grf
+Size=864 1632
+Type=MapStore
+
+[MapStore]
+Data=habitat_medusas_sv.mp#
+Structure=Line
+Type=Float
+
+StoreTime=1652240329
+StartOffset=0
+RowLength=1632
+PixelInterLeaved=No
+SwapBytes=No
+UseAs=No
+Format=2

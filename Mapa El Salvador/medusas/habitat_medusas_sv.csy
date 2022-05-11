@@ -1,0 +1,18 @@
+[CoordSystem]
+Datum=WGS 1984
+Ellipsoid=User Defined
+Projection=UTM
+Type=Projection
+Width=28
+
+[Ellipsoid]
+1/f=298.257224
+a=6378137.000000
+
+[Ilwis]
+Type=CoordSystem
+
+[Projection]
+Northern Hemisphere=Yes
+Zone=16
+
