@@ -1,0 +1,18 @@
+[BaseMap]
+Domain=value.dom
+Range=-9999999.900:9999999.900:1.000000:offset=0
+Type=Map
+
+[Ilwis]
+Type=BaseMap
+
+[Map]
+GeoRef=playas.grf
+Size=1079 828
+Type=MapStore
+
+[MapStore]
+Data=playas_band_3.mp#
+Structure=Line
+Type=Byte
+

@@ -1,0 +1,36 @@
+[BaseMap]
+Domain=value.dom
+Range=-10000000:10000000:1:offset=0
+Type=Map
+CoordSystem=playas.csy
+MinMax=93:255
+Perc1=93:255
+HistogramSize=14
+CoordBounds=-90.273147 12.273596 -87.674217 15.660365
+DomainInfo=value.dom;Long;value;0;-9999999.9:9999999.9:0.1:offset=0;
+Proximity=-50000000000000001000000000000.
+
+[Ilwis]
+Type=BaseMap
+Description=
+Time=1652245240
+Version=3.1
+Class=Raster Map
+
+[Map]
+GeoRef=playas.grf
+Size=1079 828
+Type=MapStore
+
+[MapStore]
+Data=playas_band_2.mp#
+Structure=Line
+Type=Byte
+
+StoreTime=1652245107
+StartOffset=0
+RowLength=828
+PixelInterLeaved=No
+SwapBytes=No
+UseAs=No
+Format=2

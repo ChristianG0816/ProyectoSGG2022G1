@@ -1,0 +1,16 @@
+[GeoRef]
+CoordSystem=playas.csy
+Type=GeoRefCorners
+columns=828
+lines=1079
+
+[GeoRefCorners]
+CornersOfCorners=Yes
+MaxX=-87.674217
+MaxY=15.660365
+MinX=-90.273147
+MinY=12.273596
+
+[Ilwis]
+Type=GeoRef
+
