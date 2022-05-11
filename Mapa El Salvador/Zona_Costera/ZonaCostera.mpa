@@ -1,0 +1,36 @@
+[Ilwis]
+Description=PolygonMapFromSegment(ZonaCostera,"",ZonaCostera.dom)
+Time=1652235978
+Version=3.7
+Class=ILWIS::Polygon Map
+DomainChangeable=Yes
+Type=BaseMap
+[IlwisObjectVirtual]
+Expression=PolygonMapFromSegment(ZonaCostera,"",ZonaCostera.dom)
+DefOnlyPossible=No
+[ObjectDependency]
+NrDepObjects=1
+Object0=ZonaCostera.mps
+[PolygonMap]
+Type=PolygonMapStore
+Topological=Yes
+[PolygonMapVirtual]
+Expression=PolygonMapFromSegment(ZonaCostera,"",ZonaCostera.dom)
+Type=PolygonMapFromSegment
+[PolygonMapFromSegment]
+SegmentMap=ZonaCostera.mps
+Mask=
+AutoCorrect=No
+[BaseMap]
+CoordSystem=utm.csy
+CoordBounds=-90.132 13.155 -87.684 14.451
+Domain=ZonaCostera.dom
+DomainInfo=ZonaCostera.dom;Byte;class;4;;
+HistogramSize=0
+Type=PolygonMap
+Proximity=0.006480
+[PolygonMapStore]
+Format=5
+DataPol=ZonaCostera.mpz#
+Polygons=51
+DeletedPolygons=0

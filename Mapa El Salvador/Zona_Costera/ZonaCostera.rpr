@@ -1,0 +1,40 @@
+[Table]
+Description=Representation Class "ZonaCostera"
+Time=1652235518
+Version=3.1
+Class=Table
+Domain=ZonaCostera.dom
+DomainInfo=ZonaCostera.dom;Byte;class;4;;
+Columns=1
+Records=4
+Type=TableStore
+[TableStore]
+Data=ZonaCostera.rp#
+UseAs=No
+Col0=Color
+Type=TableBinary
+StoreTime=1652235352
+[Col:Color]
+Description=Color
+Time=1652235352
+Version=3.1
+Class=Column
+Domain=Color.dom
+DomainInfo=Color.dom;Long;color;0;;
+ReadOnly=No
+OwnedByTable=Yes
+StoreType=Long
+Stored=Yes
+Type=ColumnStore
+[Ilwis]
+Description=Representation Class "ZonaCostera"
+Time=1652235518
+Version=3.1
+Class=Representation Class
+Type=Representation
+[Representation]
+Domain=ZonaCostera.dom
+DomainInfo=ZonaCostera.dom;Byte;class;4;;
+BoundaryColor=0
+BoundaryWidth=1
+Type=RepresentationClass
