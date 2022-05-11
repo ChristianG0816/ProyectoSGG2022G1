@@ -1,14 +1,14 @@
 [Domain]
-Description=Domain UniqueID "Ranchos Costas.mpp"
-Time=1651968772
+Description=Domain UniqueID "Ranchos.mpp"
+Time=1652309932
 Version=3.1
 Class=Domain UniqueID
 Width=8
 Type=DomainUniqueID
 [Ilwis]
 ContainsDom=True
-Description=Contiene los ranchos de la costa del sol, Playa de la libertad, Acajutla y la Union
-Time=1652296082
+Description=Contiene los ranchos de las costas salvadoreñas
+Time=1652310202
 Version=3.1
 Class=Point Map
 Type=BaseMap
@@ -18,11 +18,11 @@ Prefix=pnt
 [DomainIdentifier]
 Nr=16
 [BaseMap]
-AttributeTable='Ranchos Costas'.tbt
+AttributeTable=Ranchos.tbt
 CoordSystem=utm.csy
 CoordBounds=-90.132 13.155 -87.684 14.451
-Domain='Ranchos Costas'.mpp
-DomainInfo=Ranchos Costas.mpp;Long;UniqueID;0;;
+Domain=Ranchos.mpp
+DomainInfo=Ranchos.mpp;Long;UniqueID;0;;
 HistogramSize=0
 Proximity=0.006480
 Type=PointMap
@@ -31,7 +31,7 @@ Points=18
 Type=PointMapStore
 [Table]
 Description=
-Time=1652296082
+Time=1652310202
 Version=3.1
 Class=Table
 Domain=None.dom
@@ -40,14 +40,14 @@ Columns=2
 Records=19
 Type=TableStore
 [TableStore]
-Data='Ranchos Costas'.pt#
+Data=Ranchos.pt#
 UseAs=No
 Col0=Coordinate
 Col1=Name
 Type=TableBinary
 [Col:Coordinate]
 Description=
-Time=1652296082
+Time=1652310202
 Version=3.1
 Class=Column
 Domain=utm.csy
@@ -59,11 +59,11 @@ Stored=Yes
 Type=ColumnStore
 [Col:Name]
 Description=Point name/value
-Time=1652296082
+Time=1652310202
 Version=3.1
 Class=Column
-Domain='Ranchos Costas'.mpp
-DomainInfo=Ranchos Costas.mpp;Long;UniqueID;0;;
+Domain=Ranchos.mpp
+DomainInfo=Ranchos.mpp;Long;UniqueID;0;;
 ReadOnly=No
 OwnedByTable=Yes
 StoreType=Long
@@ -73,8 +73,8 @@ Type=ColumnStore
 StoreTime=0
 Format=2
 [dom:Table]
-Description=Contiene los ranchos de la costa del sol, Playa de la libertad, Acajutla y la Union
-Time=1651968814
+Description=Contiene los ranchos de las costas salvadoreñas
+Time=1652309932
 Version=3.1
 Class=Table
 Domain=String.dom
@@ -83,16 +83,16 @@ Columns=3
 Records=16
 Type=TableStore
 [dom:TableStore]
-Data='Ranchos Costas'.dm!
+Data=Ranchos.dm!
 UseAs=No
 Col0=Name
 Col1=Ord
 Col2=Ind
 Type=TableBinary
-StoreTime=1651968814
+StoreTime=1652309932
 [dom:Col:Name]
 Description=Class Name
-Time=1651967898
+Time=1652309688
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -104,7 +104,7 @@ Stored=Yes
 Type=ColumnStore
 [dom:Col:Ord]
 Description=Order
-Time=1651967898
+Time=1652309688
 Version=3.1
 Class=Column
 Domain=value.dom
@@ -120,7 +120,7 @@ Stored=Yes
 Type=ColumnStore
 [dom:Col:Ind]
 Description=Inverse Order
-Time=1651967898
+Time=1652309688
 Version=3.1
 Class=Column
 Domain=value.dom
