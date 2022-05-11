@@ -1,6 +1,6 @@
 [Ilwis]
 Description=
-Time=1651969532
+Time=1652297624
 Version=3.1
 Class=Table
 Type=Table
@@ -18,7 +18,8 @@ Type=TableBinary
 StoreTime=1651967830
 Col1=CODRancho
 Col2=Departamento
-Col3=Dirección
+Col3=Direccion
+Col4=Direccion
 [Col:Name]
 Description=
 Time=1651969196
@@ -36,11 +37,12 @@ Width=20
 StatPaneVisible=Yes
 RecordView=No
 ButtonWidth=8
-Columns=4
+Columns=5
 Col0=Name
 Col1=CODRancho
 Col2=Departamento
 Col3=Dirección
+Col4=Direccion
 [Col:CODRancho]
 Description=
 Time=1651969354
@@ -67,9 +69,9 @@ StoreType=String
 Stored=Yes
 Type=ColumnStore
 Width=20
-[Col:Dirección]
+[Col:Direccion]
 Description=
-Time=1651969532
+Time=1652297612
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -79,4 +81,4 @@ OwnedByTable=No
 StoreType=String
 Stored=Yes
 Type=ColumnStore
-Width=26
+Width=70

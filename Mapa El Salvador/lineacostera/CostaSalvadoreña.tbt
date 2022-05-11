@@ -1,6 +1,6 @@
 [Ilwis]
 Description=
-Time=1652223564
+Time=1652297836
 Version=3.1
 Class=Table
 Type=Table
@@ -18,9 +18,10 @@ Type=TableBinary
 StoreTime=1652222880
 Col1=Longitud
 Col2=''Punto de Partida''
-Col3=''Punto de Finalización''
-Col4=Estuarios
-Col5=''Aguas Oceanicas''
+Col3=Estuarios
+Col4=''Aguas Oceanicas''
+Col5=''Punto de Finalizacion''
+Col6=''Punto de Finalizacion''
 [Col:Name]
 Description=
 Time=1652223232
@@ -36,7 +37,7 @@ Type=ColumnStore
 Width=20
 [Col:Longitud]
 Description=
-Time=1652223318
+Time=1652297836
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -52,15 +53,16 @@ Columns=6
 Col0=Name
 Col1=Longitud
 Col2=''Punto de Partida''
-Col3=''Punto de Finalización''
+Col3=''Punto de Finalizacion''
 Col4=Estuarios
 Col5=''Aguas Oceanicas''
 StatPaneVisible=No
 RecordView=No
 ButtonWidth=8
+Col6=''Punto de Finalizacion''
 [Col:'Punto de Partida']
 Description=
-Time=1652223348
+Time=1652297834
 Version=3.1
 Class=Column
 Domain=String.dom
@@ -70,20 +72,7 @@ OwnedByTable=No
 StoreType=String
 Stored=Yes
 Type=ColumnStore
-Width=20
-[Col:'Punto de Finalización']
-Description=
-Time=1652223436
-Version=3.1
-Class=Column
-Domain=String.dom
-DomainInfo=String.dom;String;string;0;;
-ReadOnly=No
-OwnedByTable=No
-StoreType=String
-Stored=Yes
-Type=ColumnStore
-Width=20
+Width=19
 [Col:Estuarios]
 Description=
 Time=1652223492
@@ -96,7 +85,7 @@ OwnedByTable=No
 StoreType=String
 Stored=Yes
 Type=ColumnStore
-Width=20
+Width=48
 [Col:'Aguas Oceanicas']
 Description=
 Time=1652223564
@@ -110,3 +99,16 @@ StoreType=String
 Stored=Yes
 Type=ColumnStore
 Width=20
+[Col:'Punto de Finalizacion']
+Description=
+Time=1652297818
+Version=3.1
+Class=Column
+Domain=String.dom
+DomainInfo=String.dom;String;string;0;;
+ReadOnly=No
+OwnedByTable=No
+StoreType=String
+Stored=Yes
+Type=ColumnStore
+Width=26

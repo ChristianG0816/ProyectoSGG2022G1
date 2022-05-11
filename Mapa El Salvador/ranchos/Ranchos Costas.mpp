@@ -8,7 +8,7 @@ Type=DomainUniqueID
 [Ilwis]
 ContainsDom=True
 Description=Contiene los ranchos de la costa del sol, Playa de la libertad, Acajutla y la Union
-Time=1651968814
+Time=1652296082
 Version=3.1
 Class=Point Map
 Type=BaseMap
@@ -19,7 +19,7 @@ Prefix=pnt
 Nr=16
 [BaseMap]
 AttributeTable='Ranchos Costas'.tbt
-CoordSystem=unknown.csy
+CoordSystem=utm.csy
 CoordBounds=-90.132 13.155 -87.684 14.451
 Domain='Ranchos Costas'.mpp
 DomainInfo=Ranchos Costas.mpp;Long;UniqueID;0;;
@@ -27,17 +27,17 @@ HistogramSize=0
 Proximity=0.006480
 Type=PointMap
 [PointMap]
-Points=17
+Points=18
 Type=PointMapStore
 [Table]
 Description=
-Time=1651968814
+Time=1652296082
 Version=3.1
 Class=Table
 Domain=None.dom
 DomainInfo=none.dom;Byte;none;0;;
 Columns=2
-Records=18
+Records=19
 Type=TableStore
 [TableStore]
 Data='Ranchos Costas'.pt#
@@ -47,11 +47,11 @@ Col1=Name
 Type=TableBinary
 [Col:Coordinate]
 Description=
-Time=1651968814
+Time=1652296082
 Version=3.1
 Class=Column
-Domain=unknown.csy
-DomainInfo=unknown.csy;Coord;coord;0;;
+Domain=utm.csy
+DomainInfo=utm.csy;Coord;coord;0;;
 ReadOnly=No
 OwnedByTable=No
 StoreType=Coord
@@ -59,7 +59,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:Name]
 Description=Point name/value
-Time=1651968814
+Time=1652296082
 Version=3.1
 Class=Column
 Domain='Ranchos Costas'.mpp
@@ -70,11 +70,11 @@ StoreType=Long
 Stored=Yes
 Type=ColumnStore
 [PointMapStore]
-StoreTime=1651968772
+StoreTime=0
 Format=2
 [dom:Table]
-Description=
-Time=1651968772
+Description=Contiene los ranchos de la costa del sol, Playa de la libertad, Acajutla y la Union
+Time=1651968814
 Version=3.1
 Class=Table
 Domain=String.dom
@@ -89,8 +89,9 @@ Col0=Name
 Col1=Ord
 Col2=Ind
 Type=TableBinary
+StoreTime=1651968814
 [dom:Col:Name]
-Description=ID Name
+Description=Class Name
 Time=1651967898
 Version=3.1
 Class=Column

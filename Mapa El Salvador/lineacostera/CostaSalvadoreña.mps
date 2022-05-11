@@ -8,7 +8,7 @@ Type=DomainUniqueID
 [Ilwis]
 ContainsDom=True
 Description=Contiene la Linea Costera de El Salvador
-Time=1652223224
+Time=1652296284
 Version=3.1
 Class=ILWIS::Segment Map
 Type=BaseMap
@@ -19,7 +19,7 @@ Prefix=seg
 Nr=1
 [BaseMap]
 AttributeTable=CostaSalvadoreña.tbt
-CoordSystem=unknown.csy
+CoordSystem=utm.csy
 CoordBounds=-90.132 13.155 -87.684 14.451
 Domain=CostaSalvadoreña.mps
 DomainInfo=CostaSalvadoreña.mps;Long;UniqueID;0;;
@@ -38,7 +38,7 @@ DeletedSegments=0
 Coordinates=0
 [Table]
 Description=
-Time=1652223234
+Time=1652296284
 Version=3.1
 Class=Table
 Domain=None.dom
@@ -57,11 +57,11 @@ Col4=SegmentValue
 Type=TableBinary
 [Col:MinCoords]
 Description=
-Time=1652223234
+Time=1652296284
 Version=3.1
 Class=Column
-Domain=unknown.csy
-DomainInfo=unknown.csy;Coord;coord;0;;
+Domain=utm.csy
+DomainInfo=utm.csy;Coord;coord;0;;
 ReadOnly=No
 OwnedByTable=Yes
 StoreType=Coord
@@ -69,11 +69,11 @@ Stored=Yes
 Type=ColumnStore
 [Col:MaxCoords]
 Description=
-Time=1652223234
+Time=1652296284
 Version=3.1
 Class=Column
-Domain=unknown.csy
-DomainInfo=unknown.csy;Coord;coord;0;;
+Domain=utm.csy
+DomainInfo=utm.csy;Coord;coord;0;;
 ReadOnly=No
 OwnedByTable=Yes
 StoreType=Coord
@@ -81,7 +81,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:Coords]
 Description=
-Time=1652223234
+Time=1652296284
 Version=3.1
 Class=Column
 Domain=CoordBuf.dom
@@ -93,7 +93,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:Deleted]
 Description=
-Time=1652223234
+Time=1652296284
 Version=3.1
 Class=Column
 Domain=bool.dom
@@ -109,7 +109,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:SegmentValue]
 Description=
-Time=1652223234
+Time=1652296284
 Version=3.1
 Class=Column
 Domain=CostaSalvadoreña.mps
