@@ -140,3 +140,7 @@ StdDev=?
 StoreType=Long
 Stored=Yes
 Type=ColumnStore
+[TableView]
+StatPaneVisible=Yes
+RecordView=No
+ButtonWidth=4

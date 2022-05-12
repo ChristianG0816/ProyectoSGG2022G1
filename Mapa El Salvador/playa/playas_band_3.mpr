@@ -2,6 +2,7 @@
 Domain=value.dom
 Range=-9999999.900:9999999.900:1.000000:offset=0
 Type=Map
+CoordSystem=playas.csy
 
 [Ilwis]
 Type=BaseMap
