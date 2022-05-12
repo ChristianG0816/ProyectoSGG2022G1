@@ -8,7 +8,7 @@ Type=DomainUniqueID
 [Ilwis]
 ContainsDom=True
 Description=Contiene las playas de las costas de Acajutla, La Libertad, La Union y La Paz
-Time=1652166968
+Time=1652385372
 Version=3.1
 Class=Point Map
 Type=BaseMap
@@ -20,7 +20,7 @@ Prefix=pnt
 Nr=28
 [BaseMap]
 AttributeTable=playas_costas.tbt
-CoordSystem=unknown.csy
+CoordSystem=utm.csy
 CoordBounds=-90.132 13.155 -87.684 14.451
 Domain=playas_costas.mpp
 DomainInfo=playas_costas.mpp;Long;UniqueID;0;;
@@ -28,17 +28,17 @@ HistogramSize=0
 Proximity=0.006480
 Type=PointMap
 [PointMap]
-Points=28
+Points=29
 Type=PointMapStore
 [Table]
 Description=
-Time=1652166968
+Time=1652385374
 Version=3.1
 Class=Table
 Domain=None.dom
 DomainInfo=none.dom;Byte;none;0;;
 Columns=2
-Records=29
+Records=30
 Type=TableStore
 [TableStore]
 Data=playas_costas.pt#
@@ -48,11 +48,11 @@ Col1=Name
 Type=TableBinary
 [Col:Coordinate]
 Description=
-Time=1652166968
+Time=1652385374
 Version=3.1
 Class=Column
-Domain=unknown.csy
-DomainInfo=unknown.csy;Coord;coord;0;;
+Domain=utm.csy
+DomainInfo=utm.csy;Coord;coord;0;;
 ReadOnly=No
 OwnedByTable=No
 StoreType=Coord
@@ -60,7 +60,7 @@ Stored=Yes
 Type=ColumnStore
 [Col:Name]
 Description=Point name/value
-Time=1652166968
+Time=1652385374
 Version=3.1
 Class=Column
 Domain=playas_costas.mpp
@@ -71,11 +71,11 @@ StoreType=Long
 Stored=Yes
 Type=ColumnStore
 [PointMapStore]
-StoreTime=1652166966
+StoreTime=0
 Format=2
 [dom:Table]
-Description=
-Time=1652166462
+Description=Contiene las playas de las costas de Acajutla, La Libertad, La Union y La Paz
+Time=1652166968
 Version=3.1
 Class=Table
 Domain=String.dom
@@ -90,8 +90,9 @@ Col0=Name
 Col1=Ord
 Col2=Ind
 Type=TableBinary
+StoreTime=1652166968
 [dom:Col:Name]
-Description=ID Name
+Description=Class Name
 Time=1652165350
 Version=3.1
 Class=Column
