@@ -12,7 +12,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DEPART</ogc:PropertyName>
+              <ogc:PropertyName>depart</ogc:PropertyName>
               <ogc:Literal>La Libertad</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -34,7 +34,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DEPART</ogc:PropertyName>
+              <ogc:PropertyName>depart</ogc:PropertyName>
               <ogc:Literal>La Paz</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -56,7 +56,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DEPART</ogc:PropertyName>
+              <ogc:PropertyName>depart</ogc:PropertyName>
               <ogc:Literal>La Union</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -78,7 +78,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DEPART</ogc:PropertyName>
+              <ogc:PropertyName>depart</ogc:PropertyName>
               <ogc:Literal>Sonsonate</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -101,11 +101,11 @@
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>DEPART</ogc:PropertyName>
+                <ogc:PropertyName>depart</ogc:PropertyName>
                 <ogc:Literal></ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsNull>
-                <ogc:PropertyName>DEPART</ogc:PropertyName>
+                <ogc:PropertyName>depart</ogc:PropertyName>
               </ogc:PropertyIsNull>
             </ogc:Or>
           </ogc:Filter>
