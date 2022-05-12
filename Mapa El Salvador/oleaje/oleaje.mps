@@ -25,6 +25,7 @@ DomainInfo=oleaje.mps;Long;UniqueID;0;;
 HistogramSize=0
 Proximity=0.006480
 Type=SegmentMap
+AttributeTable=oleaje.tbt
 [SegmentMap]
 Snap Distance=0.024480
 Tunnel Width=0.002448
