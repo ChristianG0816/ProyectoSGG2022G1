@@ -131,10 +131,7 @@ INSERT INTO `hoteles_costas` (`OGR_FID`, `SHAPE`, `hoteles_mpp`, `name`, `cod_ho
 (25, 0x010000000101000000f87d316d785756c049219ae430fc2a40, '25', 'El_Pacifico', 'Hotel25', 'La_Libertad', 'Carretera_del_Litoral_Km_40_1/2_Entrada_Principal_Playa_Majahual'),
 (26, 0x010000000101000000f69e31f9dc5756c0664beaff77fc2a40, '26', 'Reef_On_The_Water', 'Hotel26', 'La_Libertad', 'Carretera_el_Litoral_Km_41.5,_La_Libertad'),
 (27, 0x0100000001010000005ce231e1f45756c06fdbac6888fc2a40, '27', 'Acantilados', 'Hotel27', 'La_Libertad', 'Km._41_1/2,_Carretera_El_Litoral,_La_Libertad'),
-(28, 0x01000000010100000021323281545856c094470f236efd2a40, '28', 'Boca_Olas_Resort_&_Villas', 'Hotel28', 'La_Libertad', 'El_Tunco,_La_Libertad'),
-(29, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?', '?'),
-(30, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?', '?'),
-(31, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?', '?');
+(28, 0x01000000010100000021323281545856c094470f236efd2a40, '28', 'Boca_Olas_Resort_&_Villas', 'Hotel28', 'La_Libertad', 'El_Tunco,_La_Libertad');
 
 -- --------------------------------------------------------
 
@@ -275,10 +272,7 @@ INSERT INTO `playas_costas` (`OGR_FID`, `SHAPE`, `playas_cmpp`, `name`, `direcci
 (24, 0x010000000101000000f117ce9489fa55c0a3b7f3997b652a40, '24', 'El_Tamarindo', 'El_Tamarindo,_La_Union', 'bajo', 'actividad_de_pesca_y_recreaci?n', 'N', 'N', 'Cuenta_con_muchas_expectativas_de_ecoturismo_su_espacio_natural', 'PLAYA24'),
 (25, 0x010000000101000000f1d1d2b69cf255c00542a13f60962a40, '25', 'El_chiquirin', 'La_Uni?n', 'bajo', 'realizan_investigaciones_arqueol?gicas_y_recreaci?n', 'N', 'Y', 'Tiene_tres_islas_bastante_visibles_desde_su_costa:_isla_Mart?n_P?rez,_isla_Conchag?ita_y_probablemente_parte_de_la_isla_Punta_Zacate', 'PLAYA25'),
 (26, 0x0100000001010000004e5e4798b40656c02ec6f915635a2a40, '26', 'cuco', 'La_Uni?n', 'alto', 'actividad_de_pesca_y_realizaci?n_de_otras_actividades_acu?ticas.', 'Y', 'Y', 'Tranquilidad_de_sus_aguas,_las_extensas_?reas_de_arena_negra', 'PLAYA26'),
-(27, 0x010000000101000000936c7031e2fd55c0b5805537be512a40, '27', 'Tunas', 'Munucipio_de_Conchagua,_La_Uni?n', 'bajo', 'actividades_pesqueras_y_recreaci?n', 'N', 'Y', 'Origen_volc?nico,_su_arena_de_color_negro_y_sus_formaciones_rocosas_que_forman_peque?os_estanques_convierten', 'PLAYA27'),
-(28, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?', '?', '?', '?', '?', '?'),
-(29, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?', '?', '?', '?', '?', '?'),
-(30, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?', '?', '?', '?', '?', '?');
+(27, 0x010000000101000000936c7031e2fd55c0b5805537be512a40, '27', 'Tunas', 'Munucipio_de_Conchagua,_La_Uni?n', 'bajo', 'actividades_pesqueras_y_recreaci?n', 'N', 'Y', 'Origen_volc?nico,_su_arena_de_color_negro_y_sus_formaciones_rocosas_que_forman_peque?os_estanques_convierten', 'PLAYA27');
 
 -- --------------------------------------------------------
 
@@ -301,16 +295,10 @@ CREATE TABLE `puertos_sv` (
 
 INSERT INTO `puertos_sv` (`OGR_FID`, `SHAPE`, `puertos_mpp`, `name`, `departament`, `tipo_puerto`) VALUES
 (1, 0x0100000001010000009be3dc265c7556c0b65bdc9090262b40, 'pto01', 'Puerto_de_Acajutla', 'Sonsonate', 'industrial'),
-(2, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?'),
 (3, 0x0100000001010000008dfee1f86b5456c0ff1df6e747f82a40, 'pto02', 'Puerto_de_La_Libertad', 'La_Libertad', 'industrial'),
 (4, 0x01000000010100000077e6d484232356c018778368ad8c2a40, 'pto03', 'Puerto_El_Triunfo', 'Usulutan', 'recreativo'),
 (5, 0x0100000001010000008d1315600ef455c0b727486c77a72a40, 'pto04', 'Puerto_CORSAIN', 'La_Union', 'industrial'),
-(6, 0x010000000101000000d0871d7c97f455c0aa471adcd6aa2a40, 'pto05', 'Puerto_El_Cutuco', 'La_Union', 'industrial'),
-(7, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?'),
-(8, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?'),
-(9, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?'),
-(10, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?'),
-(11, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?');
+(6, 0x010000000101000000d0871d7c97f455c0aa471adcd6aa2a40, 'pto05', 'Puerto_El_Cutuco', 'La_Union', 'industrial');
 
 -- --------------------------------------------------------
 
@@ -348,10 +336,7 @@ INSERT INTO `ranchos` (`OGR_FID`, `SHAPE`, `ranchos`, `name`, `codra`, `departam
 (13, 0x0100000001010000000e0f0643423f56c068041bd7bfab2a40, 'pt13', 'Rancho_Casa_Blanca_Costa_del_Sol', 'RA13', 'La_Paz', 'Boulevard_Costa_del_Sol,_El_Salvador'),
 (14, 0x0100000001010000005572a9a5144156c0f63a4e76d8b12a40, 'pt14', 'Rancho_Ismary', 'RA14', 'La_Paz', 'Boulevard_Costa_del_Sol,_El_Salvador'),
 (15, 0x0100000001010000005a1135d1673f56c09b5ab6d617ad2a40, 'pt15', 'Rancho_Las_Gaviotas', 'RA15', 'La_Paz', 'San_Luis_Talpa_La_Paz'),
-(16, 0x0100000001010000009d386f52873e56c0b579d278d8aa2a40, 'pt16', 'Rancho_Torero_El_Salvador', 'RA16', 'La_Paz', 'San_Luis_la_Herradura,_El_Salvador'),
-(17, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?', '?'),
-(18, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?', '?'),
-(19, 0x010000000101000000a0c8eb85f3cce1ffa0c8eb85f3cce1ff, '?', '?', '?', '?', '?');
+(16, 0x0100000001010000009d386f52873e56c0b579d278d8aa2a40, 'pt16', 'Rancho_Torero_El_Salvador', 'RA16', 'La_Paz', 'San_Luis_la_Herradura,_El_Salvador');
 
 -- --------------------------------------------------------
 
