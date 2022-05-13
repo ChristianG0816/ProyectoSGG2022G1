@@ -1,0 +1,48 @@
+[Domain]
+Description=Domain UniqueID "DepartamentosCosteros_ES.mpa"
+Time=1652474116
+Version=3.1
+Class=Domain UniqueID
+Width=8
+Type=DomainUniqueID
+[Ilwis]
+ContainsDom=True
+Description=PolygonMapFromSegment(DepartamentosCosteros_ES,"")
+Time=1652474116
+Version=3.1
+Class=Dependent Polygon Map
+DomainChangeable=Yes
+Type=BaseMap
+[DomainSort]
+Sorting=AlphaNumeric
+Prefix=Pol
+[DomainIdentifier]
+Nr=29
+[IlwisObjectVirtual]
+Expression=PolygonMapFromSegment(DepartamentosCosteros_ES,"")
+DefOnlyPossible=No
+[ObjectDependency]
+NrDepObjects=1
+Object0=DepartamentosCosteros_ES.mps
+[PolygonMap]
+Type=PolygonMapVirtual
+Topological=Yes
+[PolygonMapVirtual]
+Expression=PolygonMapFromSegment(DepartamentosCosteros_ES,"")
+Type=PolygonMapFromSegment
+[PolygonMapFromSegment]
+SegmentMap=DepartamentosCosteros_ES.mps
+Mask=
+AutoCorrect=No
+[BaseMap]
+CoordSystem=utm.csy
+CoordBounds=-90.132 13.155 -87.684 14.451
+Domain=DepartamentosCosteros_ES.mpa
+DomainInfo=DepartamentosCosteros_ES.mpa;Long;UniqueID;0;;
+HistogramSize=0
+Type=PolygonMap
+[PolygonMapStore]
+Format=5
+DataPol=DepartamentosCosteros_ES.mpz#
+Polygons=10
+DeletedPolygons=0
